@@ -1,0 +1,117 @@
+.parent-div {
+    width: 1440px;
+    height: 876px;
+    overflow: hidden;
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+  }
+  .FRAME-13-2 {
+    transform: rotate(0deg);
+    position: relative;
+    width: 1440px;
+    height: 876px;
+    left: 0px;
+    top: 0px;
+    opacity: 1;
+    overflow: hidden;
+    background: rgba(255, 255, 255, 1);
+  }
+  .FRAME-2-7 {
+    transform: rotate(0deg);
+    position: absolute;
+    width: 513px;
+    height: 514px;
+    left: 132px;
+    top: 109px;
+    opacity: 1;
+    overflow: hidden;
+    background: rgba(240, 246, 241, 1);
+  }
+  .FRAME-9-56 {
+    transform: rotate(0deg);
+    position: absolute;
+    width: 108px;
+    height: 130px;
+    left: 263px;
+    top: 342px;
+    opacity: 1;
+    overflow: hidden;
+  }
+  .FRAME-9-58 {
+    transform: rotate(0deg);
+    position: absolute;
+    width: 118px;
+    height: 130px;
+    left: 41px;
+    top: 179px;
+    opacity: 1;
+    overflow: hidden;
+  }
+  .FRAME-9-60 {
+    transform: rotate(0deg);
+    position: absolute;
+    width: 109px;
+    height: 133px;
+    left: 257px;
+    top: 39px;
+    opacity: 1;
+    overflow: hidden;
+  }
+  .FRAME-2-8 {
+    transform: rotate(0deg);
+    position: absolute;
+    width: 517px;
+    height: 517px;
+    left: 791px;
+    top: 106px;
+    opacity: 1;
+    overflow: hidden;
+    background: rgba(240, 246, 241, 1);
+    border-radius: 10000px;
+    border-top-left-radius: 10000px;
+    border-top-right-radius: 10000px;
+    border-bottom-left-radius: 10000px;
+    border-bottom-right-radius: 10000px;
+  }
+  .FRAME-9-62 {
+    transform: rotate(0deg);
+    position: absolute;
+    width: 65px;
+    height: 88px;
+    left: 185px;
+    top: 87px;
+    opacity: 1;
+    overflow: hidden;
+  }
+  .FRAME-9-64 {
+    transform: rotate(0deg);
+    position: absolute;
+    width: 86px;
+    height: 107px;
+    left: 170px;
+    top: 356px;
+    opacity: 1;
+    overflow: hidden;
+  }
+  .FRAME-9-66 {
+    transform: rotate(0deg);
+    position: absolute;
+    width: 105px;
+    height: 114px;
+    left: 358px;
+    top: 206px;
+    opacity: 1;
+    overflow: hidden;
+  }
+  .INSTANCE-25-30 {
+    transform: rotate(0deg);
+    position: absolute;
+    width: 115px;
+    height: 68px;
+    left: 1254px;
+    top: 754px;
+    opacity: 1;
+    background: transparent;
+  }
+  

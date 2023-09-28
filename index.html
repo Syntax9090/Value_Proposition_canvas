@@ -1,0 +1,916 @@
+<!DOCTYPE html><html><head>
+    <title>Desktop - 1</title>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="./animation.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fibra Alt:wght@700&display=swap" rel="stylesheet">
+    <link rel="preload" href="https://s3-alpha-sig.figma.com/img/a1fd/a9bb/e79a69349e9501c71602ff98270b6bb1?Expires=1696809600&Signature=okIZsgNeSHkzS7vipmFWYhFyB8Vsn8JTiCuPuRVFOIi~HBYCZNlawKGbNmzcbM6qIQMhA6dmKfth3NM9EfxXHNIrWldxX0gImLf0GCQSVJQ-x5NK6m6WusGfMQxwzHueJm4IPLcuR55IRhaEjMTLsNWgLAD~-Bzt3qX-vO5W56Ayu8mc7QnwvvRk4rjApgCtovIPOejtqLoHn50~652N59T5RWCePprf9QY0zMY1u5tqrRN8K4wly1Nqza8kP65Rn6CK9aYLZczb80XOt3X00NF-W9uPLvOufevrP1A8NS7559yaMIDTeQyevNn9AeonhsHhyEzo2zrR7336-cJ4vQ__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4" as="image" />
+<link rel="preload" href="https://s3-alpha-sig.figma.com/img/8c38/4bd8/c53cca0ec6ce52fd2fe8952022964638?Expires=1696809600&Signature=J5kH6c-Qx5zIpCufI6IWebvgM8j8Vt7VJGuo4yFmDvguoeYt7joAVInLwGTEiqa6QXGmwLobwVN2vzSoYOCKKsHrlcXmVMZRAbw4y1AVK7P3bBA3nS~WKh2f6DGToiTT~umxKytfr0oWOLnWDGZVuLkJnajLoS839jV2tBhEMuEgLNkLvW0wQaEpXH4DBDs6EEsIGkU9wL8GFgUru5MwVb3-L09Z8L5BJsbdsAkByUNG~lmt9-KCaW5x1On--vEBj3-WBj0GPEOct86YW0EQgW48qUiN-8MEyg6mvvFdvmWkwvYhM55UDXdN~94MmnAp-hGzx30eH-NK3TFlZL0rOw__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4" as="image" />
+<link rel="preload" href="https://s3-alpha-sig.figma.com/img/6f5c/9f93/f0879e5c2ade6e35ceebe9094e871b05?Expires=1696809600&Signature=ktWLkbkEctQUfeDdsZ7CCxheyZU6Eu5KWVI~RsdAUAFRoMf0zH1goECYo-v7H6P28JfsetDpi8vZpZatXT1dq6rGm-HBHFQviIv4HXYoScMqWytiTXd2H8YLx8SJRZGY0plb8RNwgQHgmb2eTEMIWA58oX8XubFA5gcF6PVw8pbBqt~vBYIchLJk~-pzcNw7SQ7-6c4hw47PWeN5j2aI~2sii3WZp2vMyoiT0jnfsBeZVp-UJlmEiRIdE1-~e5Tp3lbsmMvTxwdzm6iZDeeMjiE3MoxUgiebMu57jzLJOXaT6DhkTjaP0WOB2neHm2JZwHmUyvdyNEL3F2TBNHddtw__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4" as="image" />
+<link rel="preload" href="https://s3-alpha-sig.figma.com/img/04d9/aa8d/e3e7eff54bcca0df08b372aad7338c76?Expires=1696809600&Signature=dUtoC3ZOYvdsFs2puqm98nSOvaanv2q-PhkkRrISubxiw8sQVW3JAjRM~w8Bos2yTry8MjD7q6SSBiLwga1hQZeNFrCQxV-mIje5d~R-03G1OG2OQtQhLiGVnWXJaqeivRVhAfwZE86snpsdz1kHN05LuKQ-dfynHy8iCy4j~cHQlTA~aa6t9e5~QJIDQJ4olfGrq0IE-TTTKd3xDoIOuxvffNEE1KdZHJP8BbRElCuBEKVWqfyXWqdR-YWpMw8scAC-jNxnlqhbRDCmKzr8OZcIVfID7UZHCB203wCqglhZKsFv6UmQnlOA9Eo7Qc9VIqj1DZ30RJfro92U-R8NFg__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4" as="image" />
+<link rel="preload" href="https://s3-alpha-sig.figma.com/img/eeed/4b1b/4bd7e64565ffa761f0f022733817fe29?Expires=1696809600&Signature=Aamwm-Fdd-KKVIYbZ36qca4vwcol40~HkZr-rtGBnWsm0j8Jp9QykiWNw0BgtTdyD5U1lCpmX8wVLVSsP--fZkOdfFpXKXqXLa7lNZy68mUy7cPu-DeKe1mo1BHatEHas~VKTYTMjXs08wp6tGmchmRGdZIDQcj2avaOHdYMmqGOwvbfgVuhQ70npcKAQVzNP9LarUnIJRDyHIgVxLMA0j9fTckPqWPUnESxiVIAJE62ymmKintDpJyRvDDLS3z5l6VKYxhBITLDs7WMC6OaA~1at1cXdJVsejx-G7~QydFW4DkqpA8KObVl9E7qT-J-P0m-FSKgTEvVgT0Xtk007w__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4" as="image" />
+<link rel="preload" href="https://s3-alpha-sig.figma.com/img/875b/870f/4d61202b985e550f10b9799b46fdb509?Expires=1696809600&Signature=bnBblm4m5i8QJFc7ebXME9lwdffz77dUBRoQzZMpLLxaUggs-VgoRqjobJk60p0xv1VS7qqd6t7CZPNFL9ytFdnn5VzVjyXIaqu7lZtzhEYB8Cqb5x0ozAQy5mjFIsEBboJxH7XoUbCDmfsjf5Ru4op3-0mo6HRHSI~Eg6Z7J8hCF7uDD8FSDqBz5~yJbk~o5tlx-ektbGzXNaUSWUN2zyY1wCs23xz5ZFKo~dngiSBnw5dXVa-gsVwSIQB5PTRf4x4CrmLh2XavxPdZZbEncJHs~BZT-LxzbAi-Jn3KLRk81RGjuFp7qITYbO4TXZa2DItDIEi~-kSFlS~AtdZctg__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4" as="image" />
+<link rel="preload" href="https://s3-alpha-sig.figma.com/img/52dc/2053/628097ec74ce1759d71cf11f2504e82c?Expires=1696809600&Signature=UN3FRXMKmsBGj~5GxbScE4UM9RopX6dUdmvh6Cgh7obeDh8qeAg9LRmThQBM4GMhhGUyLaqklln72N32-Ol~HMFW1cIt3HjYSyr~eMp7lkrQ8-nk5DVcw5KlxJhSBOyNpXfSH7NusZR89WHSFp5sVy4arSwAn7605Je0fVwR3lIymcXc4o1FTTjfvTqwtyaS5DaNdyTMVa-iM8-wcdd7x6f1rQtLT6NFgMwpGtZ8UVeEbc--JRv8Puv2BjcTzO9YgAptMOT92gfULTBZoctYSAel3KincacbdZJSH~HdCILO~lSXFLI81onnmhZPeVvIhrr8kJv9odo4UBLr2Uc-og__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4" as="image" />
+<link rel="preload" href="https://s3-alpha-sig.figma.com/img/a918/b02b/4e8a463420cf9ba3b65902d2ad1c70c9?Expires=1696809600&Signature=eueZvychpw36u~PWaGst0hMzrokWpIibxx7zh8nhuLHsSemrEqaRH~iELgztKgUBzaIh6O208athagAqtcVYzlzTPsuptqJB2x-cz~NUrrbx3JSCAkYpcRSO6N1fWzAN8avdTnN8za4a3g7FDbVZuPcQ27P~ab-c6jcMa4W3CrE1djz0VGYMcdHhMUoCilW3l7dMweQCBJ3AsclNoW56gMgSl13pAkgnNFn6uHc253f2X6o2FxVh4hswrst0gZ08oFf56fVI~bmLnXXubElPZVMoUN9mjhO7ItU2I0v~EUZabZwUUJ2uw2FG8LZFUynA0KQ4q-q9TlSeJd0de2Bnag__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4" as="image" />
+<link rel="preload" href="https://s3-alpha-sig.figma.com/img/acf1/16ec/342707291f36dbd40f4f9ca93a51e1b9?Expires=1696809600&Signature=Whz7nzn3ap7BJBO9whga3JrJkdDLWDfRUitiNaPku3ZTkf-32rWw2UBchENIX8yqbKJi4vdgINjAIMDoLEu9hOHMS544lMpovfB~zlszw0kfeLBKmDenpbU4tG0HXwpuqOcmOBDLzxjeT9ozgkbkPlv7bXvb71leBnOcfbt30J1NRtQr3xB271mEZMu8QgyRqTUBgmbrNXISt4QQ6UGYpIPnrRoNF4EC27W2wIt4nBPnb13XSAyRWAlmjZ3egEZWbzuhuFL8sgxoAZx2arnqwJ82zufv9zoGfbp1c2mXCn5tgUg~Xx-u1TJZA8FjZDnd-Oug8-Ki9MXo9sdyBx25bw__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4" as="image" /> 
+
+    </head><body>
+<div class="parent-div">
+<div id="id-Desktop-1" class="FRAME-13-2"  style="z-index: 1;">
+<div id="id-SimplifiedonlineprocedurewithcompleterefundpolicyCoveragefohousedamageandlossofuseCoveragefortheftofpersonalpropertyandbelongingsCoverageofpersonalliabilityandinjuryonpremises-31-Desktop-1" class="TEXT-204-67" style="
+z-index: 2;
+position: absolute;
+top: 219px;
+left: 12px;
+transform: rotate(0deg);
+opacity: 0;
+height: 152px;
+width: 329px;
+line-height: 0px;
+vertical-align: top;
+text-align: left;
+">
+<ul><li style="color:rgba(0,0,0)"><span
+                id="id-SimplifiedonlineprocedurewithcompleterefundpolicyCoveragefohousedamageandlossofuseCoveragefortheftofpersonalpropertyandbelongingsCoverageofpersonalliabilityandinjuryonpremises-31-Desktop-1-0" 
+                style="
+                font-size:15px;
+                font-weight:700;
+                text-transform:none;
+                
+                white-space:pre-wrap;line-height: 100%;
+letter-spacing: 0px;
+color: rgba(0,0,0,1.00);
+;font-family: Fibra Alt;
+font-style: Regular;
+">Objective Insights</span></li><li style="color:rgba(0,0,0)"><span
+                id="id-SimplifiedonlineprocedurewithcompleterefundpolicyCoveragefohousedamageandlossofuseCoveragefortheftofpersonalpropertyandbelongingsCoverageofpersonalliabilityandinjuryonpremises-31-Desktop-1-0" 
+                style="
+                font-size:15px;
+                font-weight:700;
+                text-transform:none;
+                
+                white-space:pre-wrap;line-height: 100%;
+letter-spacing: 0px;
+color: rgba(0,0,0,1.00);
+;font-family: Fibra Alt;
+font-style: Regular;
+">Speed and efficiency enable</span></li></ul><span
+                id="id-SimplifiedonlineprocedurewithcompleterefundpolicyCoveragefohousedamageandlossofuseCoveragefortheftofpersonalpropertyandbelongingsCoverageofpersonalliabilityandinjuryonpremises-31-Desktop-1-0" 
+                style="
+                font-size:15px;
+                font-weight:700;
+                text-transform:none;
+                
+                white-space:pre-wrap;line-height: 100%;
+letter-spacing: 0px;
+color: rgba(0,0,0,1.00);
+;font-family: Fibra Alt;
+font-style: Regular;
+">       instant evaluations <br></span><ul><li style="color:rgba(0,0,0)"><span
+                id="id-SimplifiedonlineprocedurewithcompleterefundpolicyCoveragefohousedamageandlossofuseCoveragefortheftofpersonalpropertyandbelongingsCoverageofpersonalliabilityandinjuryonpremises-31-Desktop-1-0" 
+                style="
+                font-size:15px;
+                font-weight:700;
+                text-transform:none;
+                
+                white-space:pre-wrap;line-height: 100%;
+letter-spacing: 0px;
+color: rgba(0,0,0,1.00);
+;font-family: Fibra Alt;
+font-style: Regular;
+">Cost-effective as it provides</span></li></ul><span
+                id="id-SimplifiedonlineprocedurewithcompleterefundpolicyCoveragefohousedamageandlossofuseCoveragefortheftofpersonalpropertyandbelongingsCoverageofpersonalliabilityandinjuryonpremises-31-Desktop-1-0" 
+                style="
+                font-size:15px;
+                font-weight:700;
+                text-transform:none;
+                
+                white-space:pre-wrap;line-height: 100%;
+letter-spacing: 0px;
+color: rgba(0,0,0,1.00);
+;font-family: Fibra Alt;
+font-style: Regular;
+">       a premium analysis at a fraction<br>       of the cost of traditional consultations<br></span><ul><li style="color:rgba(0,0,0)"><span
+                id="id-SimplifiedonlineprocedurewithcompleterefundpolicyCoveragefohousedamageandlossofuseCoveragefortheftofpersonalpropertyandbelongingsCoverageofpersonalliabilityandinjuryonpremises-31-Desktop-1-0" 
+                style="
+                font-size:15px;
+                font-weight:700;
+                text-transform:none;
+                
+                white-space:pre-wrap;line-height: 100%;
+letter-spacing: 0px;
+color: rgba(0,0,0,1.00);
+;font-family: Fibra Alt;
+font-style: Regular;
+">Easy Access & Use</span></li></ul></div>
+<div id="id-FlexibleInsuranceplansRealEstateMarketplaceInstantPaymentPolicySmartHomeSecurityInsurance-as-a-ServiceWebsiteandmobileappChatbotsandAI-31-Desktop-1" class="TEXT-204-68" style="
+z-index: 2;
+position: absolute;
+top: 200px;
+left: 12px;
+transform: rotate(0deg);
+opacity: 0;
+height: 133px;
+width: 227px;
+line-height: 0px;
+vertical-align: top;
+text-align: left;
+">
+<ul><li style="color:rgba(0,0,0)"><span
+                id="id-FlexibleInsuranceplansRealEstateMarketplaceInstantPaymentPolicySmartHomeSecurityInsurance-as-a-ServiceWebsiteandmobileappChatbotsandAI-31-Desktop-1-0" 
+                style="
+                font-size:15px;
+                font-weight:700;
+                text-transform:none;
+                
+                white-space:pre-wrap;line-height: 100%;
+letter-spacing: 0px;
+color: rgba(0,0,0,1.00);
+;font-family: Fibra Alt;
+font-style: Regular;
+">AI-Driven Analysis Tool </span></li><li style="color:rgba(0,0,0)"><span
+                id="id-FlexibleInsuranceplansRealEstateMarketplaceInstantPaymentPolicySmartHomeSecurityInsurance-as-a-ServiceWebsiteandmobileappChatbotsandAI-31-Desktop-1-0" 
+                style="
+                font-size:15px;
+                font-weight:700;
+                text-transform:none;
+                
+                white-space:pre-wrap;line-height: 100%;
+letter-spacing: 0px;
+color: rgba(0,0,0,1.00);
+;font-family: Fibra Alt;
+font-style: Regular;
+">Customizable Input Fields</span></li></ul><span
+                id="id-FlexibleInsuranceplansRealEstateMarketplaceInstantPaymentPolicySmartHomeSecurityInsurance-as-a-ServiceWebsiteandmobileappChatbotsandAI-31-Desktop-1-0" 
+                style="
+                font-size:15px;
+                font-weight:700;
+                text-transform:none;
+                
+                white-space:pre-wrap;line-height: 100%;
+letter-spacing: 0px;
+color: rgba(0,0,0,1.00);
+;font-family: Fibra Alt;
+font-style: Regular;
+">       allow scalability.<br></span><ul><li style="color:rgba(0,0,0)"><span
+                id="id-FlexibleInsuranceplansRealEstateMarketplaceInstantPaymentPolicySmartHomeSecurityInsurance-as-a-ServiceWebsiteandmobileappChatbotsandAI-31-Desktop-1-0" 
+                style="
+                font-size:15px;
+                font-weight:700;
+                text-transform:none;
+                
+                white-space:pre-wrap;line-height: 100%;
+letter-spacing: 0px;
+color: rgba(0,0,0,1.00);
+;font-family: Fibra Alt;
+font-style: Regular;
+">Visual Representation</span></li></ul><span
+                id="id-FlexibleInsuranceplansRealEstateMarketplaceInstantPaymentPolicySmartHomeSecurityInsurance-as-a-ServiceWebsiteandmobileappChatbotsandAI-31-Desktop-1-0" 
+                style="
+                font-size:15px;
+                font-weight:700;
+                text-transform:none;
+                
+                white-space:pre-wrap;line-height: 100%;
+letter-spacing: 0px;
+color: rgba(0,0,0,1.00);
+;font-family: Fibra Alt;
+font-style: Regular;
+">       Dashboard offers an<br>       easy-to-read Value<br>      Proposition Canvas </span></div>
+<div id="id-SimplifiedapplicationprocessFlexibleinexpensiveinsuranceplansDwellingcoverageExtendedpropertycoverageOptionsoftime-basedandlot-sizecoverageSimplifiedclaimsprocessLoyaltyGivebackSchemes-31-Desktop-1" class="TEXT-204-69" style="
+z-index: 2;
+position: absolute;
+top: 181px;
+left: 12px;
+transform: rotate(0deg);
+opacity: 0;
+height: 114px;
+width: 298px;
+line-height: 0px;
+vertical-align: top;
+text-align: left;
+">
+<ul><li style="color:rgba(0,0,0)"><span
+                id="id-SimplifiedapplicationprocessFlexibleinexpensiveinsuranceplansDwellingcoverageExtendedpropertycoverageOptionsoftime-basedandlot-sizecoverageSimplifiedclaimsprocessLoyaltyGivebackSchemes-31-Desktop-1-0" 
+                style="
+                font-size:15px;
+                font-weight:700;
+                text-transform:none;
+                
+                white-space:pre-wrap;line-height: 100%;
+letter-spacing: 0px;
+color: rgba(0,0,0,1.00);
+;font-family: Fibra Alt;
+font-style: Regular;
+">Comprehensive Insights &</span></li></ul><span
+                id="id-SimplifiedapplicationprocessFlexibleinexpensiveinsuranceplansDwellingcoverageExtendedpropertycoverageOptionsoftime-basedandlot-sizecoverageSimplifiedclaimsprocessLoyaltyGivebackSchemes-31-Desktop-1-0" 
+                style="
+                font-size:15px;
+                font-weight:700;
+                text-transform:none;
+                
+                white-space:pre-wrap;line-height: 100%;
+letter-spacing: 0px;
+color: rgba(0,0,0,1.00);
+;font-family: Fibra Alt;
+font-style: Regular;
+">       Strategic Decision Making<br></span><ul><li style="color:rgba(0,0,0)"><span
+                id="id-SimplifiedapplicationprocessFlexibleinexpensiveinsuranceplansDwellingcoverageExtendedpropertycoverageOptionsoftime-basedandlot-sizecoverageSimplifiedclaimsprocessLoyaltyGivebackSchemes-31-Desktop-1-0" 
+                style="
+                font-size:15px;
+                font-weight:700;
+                text-transform:none;
+                
+                white-space:pre-wrap;line-height: 100%;
+letter-spacing: 0px;
+color: rgba(0,0,0,1.00);
+;font-family: Fibra Alt;
+font-style: Regular;
+">Provides businesses with</span></li></ul><span
+                id="id-SimplifiedapplicationprocessFlexibleinexpensiveinsuranceplansDwellingcoverageExtendedpropertycoverageOptionsoftime-basedandlot-sizecoverageSimplifiedclaimsprocessLoyaltyGivebackSchemes-31-Desktop-1-0" 
+                style="
+                font-size:15px;
+                font-weight:700;
+                text-transform:none;
+                
+                white-space:pre-wrap;line-height: 100%;
+letter-spacing: 0px;
+color: rgba(0,0,0,1.00);
+;font-family: Fibra Alt;
+font-style: Regular;
+">      Competitive Advantage<br></span><ul><li style="color:rgba(0,0,0)"><span
+                id="id-SimplifiedapplicationprocessFlexibleinexpensiveinsuranceplansDwellingcoverageExtendedpropertycoverageOptionsoftime-basedandlot-sizecoverageSimplifiedclaimsprocessLoyaltyGivebackSchemes-31-Desktop-1-0" 
+                style="
+                font-size:15px;
+                font-weight:700;
+                text-transform:none;
+                
+                white-space:pre-wrap;line-height: 100%;
+letter-spacing: 0px;
+color: rgba(0,0,0,1.00);
+;font-family: Fibra Alt;
+font-style: Regular;
+">Cost-Effective </span></li></ul></div>
+<div id="id-ExtensivecoverageValueformoneyReliefandsecurityforpropertyandpersonalbelongingsSolidunderstandingoftheinsuranceproduct-31-Desktop-1" class="TEXT-204-70" style="
+z-index: 2;
+position: absolute;
+top: 238px;
+left: 12px;
+transform: rotate(0deg);
+opacity: 0;
+height: 171px;
+width: 302px;
+line-height: 0px;
+vertical-align: top;
+text-align: left;
+">
+<ul><li style="color:rgba(0,0,0)"><span
+                id="id-ExtensivecoverageValueformoneyReliefandsecurityforpropertyandpersonalbelongingsSolidunderstandingoftheinsuranceproduct-31-Desktop-1-0" 
+                style="
+                font-size:15px;
+                font-weight:700;
+                text-transform:none;
+                
+                white-space:pre-wrap;line-height: 100%;
+letter-spacing: 0px;
+color: rgba(0,0,0,1.00);
+;font-family: Fibra Alt;
+font-style: Regular;
+">Difficulty in objectively assessing</span></li></ul><span
+                id="id-ExtensivecoverageValueformoneyReliefandsecurityforpropertyandpersonalbelongingsSolidunderstandingoftheinsuranceproduct-31-Desktop-1-0" 
+                style="
+                font-size:15px;
+                font-weight:700;
+                text-transform:none;
+                
+                white-space:pre-wrap;line-height: 100%;
+letter-spacing: 0px;
+color: rgba(0,0,0,1.00);
+;font-family: Fibra Alt;
+font-style: Regular;
+">       one’s own business.<br></span><ul><li style="color:rgba(0,0,0)"><span
+                id="id-ExtensivecoverageValueformoneyReliefandsecurityforpropertyandpersonalbelongingsSolidunderstandingoftheinsuranceproduct-31-Desktop-1-0" 
+                style="
+                font-size:15px;
+                font-weight:700;
+                text-transform:none;
+                
+                white-space:pre-wrap;line-height: 100%;
+letter-spacing: 0px;
+color: rgba(0,0,0,1.00);
+;font-family: Fibra Alt;
+font-style: Regular;
+">Time-consuming manual evaluation</span></li></ul><span
+                id="id-ExtensivecoverageValueformoneyReliefandsecurityforpropertyandpersonalbelongingsSolidunderstandingoftheinsuranceproduct-31-Desktop-1-0" 
+                style="
+                font-size:15px;
+                font-weight:700;
+                text-transform:none;
+                
+                white-space:pre-wrap;line-height: 100%;
+letter-spacing: 0px;
+color: rgba(0,0,0,1.00);
+;font-family: Fibra Alt;
+font-style: Regular;
+">       processes.<br></span><ul><li style="color:rgba(0,0,0)"><span
+                id="id-ExtensivecoverageValueformoneyReliefandsecurityforpropertyandpersonalbelongingsSolidunderstandingoftheinsuranceproduct-31-Desktop-1-0" 
+                style="
+                font-size:15px;
+                font-weight:700;
+                text-transform:none;
+                
+                white-space:pre-wrap;line-height: 100%;
+letter-spacing: 0px;
+color: rgba(0,0,0,1.00);
+;font-family: Fibra Alt;
+font-style: Regular;
+">High costs associated with hiring</span></li></ul><span
+                id="id-ExtensivecoverageValueformoneyReliefandsecurityforpropertyandpersonalbelongingsSolidunderstandingoftheinsuranceproduct-31-Desktop-1-0" 
+                style="
+                font-size:15px;
+                font-weight:700;
+                text-transform:none;
+                
+                white-space:pre-wrap;line-height: 100%;
+letter-spacing: 0px;
+color: rgba(0,0,0,1.00);
+;font-family: Fibra Alt;
+font-style: Regular;
+">       consultants for business analysis.<br></span><ul><li style="color:rgba(0,0,0)"><span
+                id="id-ExtensivecoverageValueformoneyReliefandsecurityforpropertyandpersonalbelongingsSolidunderstandingoftheinsuranceproduct-31-Desktop-1-0" 
+                style="
+                font-size:15px;
+                font-weight:700;
+                text-transform:none;
+                
+                white-space:pre-wrap;line-height: 100%;
+letter-spacing: 0px;
+color: rgba(0,0,0,1.00);
+;font-family: Fibra Alt;
+font-style: Regular;
+">Lack of clarity on business's real</span></li></ul><span
+                id="id-ExtensivecoverageValueformoneyReliefandsecurityforpropertyandpersonalbelongingsSolidunderstandingoftheinsuranceproduct-31-Desktop-1-0" 
+                style="
+                font-size:15px;
+                font-weight:700;
+                text-transform:none;
+                
+                white-space:pre-wrap;line-height: 100%;
+letter-spacing: 0px;
+color: rgba(0,0,0,1.00);
+;font-family: Fibra Alt;
+font-style: Regular;
+">      potential and weaknesses.<br></span><ul></ul></div>
+<div id="id-ExpensiveinsurancecoverageUninhabitablelivingconditionsTheftofpersonalbelongingsVisitorsfacinginjuryinpremises-31-Desktop-1" class="TEXT-204-71" style="
+z-index: 2;
+position: absolute;
+top: 238px;
+left: 12px;
+transform: rotate(0deg);
+opacity: 0;
+height: 171px;
+width: 302px;
+line-height: 0px;
+vertical-align: top;
+text-align: left;
+">
+<ul><li style="color:rgba(0,0,0)"><span
+                id="id-ExpensiveinsurancecoverageUninhabitablelivingconditionsTheftofpersonalbelongingsVisitorsfacinginjuryinpremises-31-Desktop-1-0" 
+                style="
+                font-size:15px;
+                font-weight:700;
+                text-transform:none;
+                
+                white-space:pre-wrap;line-height: 100%;
+letter-spacing: 0px;
+color: rgba(0,0,0,1.00);
+;font-family: Fibra Alt;
+font-style: Regular;
+">Difficulty in objectively assessing</span></li></ul><span
+                id="id-ExpensiveinsurancecoverageUninhabitablelivingconditionsTheftofpersonalbelongingsVisitorsfacinginjuryinpremises-31-Desktop-1-0" 
+                style="
+                font-size:15px;
+                font-weight:700;
+                text-transform:none;
+                
+                white-space:pre-wrap;line-height: 100%;
+letter-spacing: 0px;
+color: rgba(0,0,0,1.00);
+;font-family: Fibra Alt;
+font-style: Regular;
+">       one’s own business.<br></span><ul><li style="color:rgba(0,0,0)"><span
+                id="id-ExpensiveinsurancecoverageUninhabitablelivingconditionsTheftofpersonalbelongingsVisitorsfacinginjuryinpremises-31-Desktop-1-0" 
+                style="
+                font-size:15px;
+                font-weight:700;
+                text-transform:none;
+                
+                white-space:pre-wrap;line-height: 100%;
+letter-spacing: 0px;
+color: rgba(0,0,0,1.00);
+;font-family: Fibra Alt;
+font-style: Regular;
+">Time-consuming manual evaluation</span></li></ul><span
+                id="id-ExpensiveinsurancecoverageUninhabitablelivingconditionsTheftofpersonalbelongingsVisitorsfacinginjuryinpremises-31-Desktop-1-0" 
+                style="
+                font-size:15px;
+                font-weight:700;
+                text-transform:none;
+                
+                white-space:pre-wrap;line-height: 100%;
+letter-spacing: 0px;
+color: rgba(0,0,0,1.00);
+;font-family: Fibra Alt;
+font-style: Regular;
+">       processes.<br></span><ul><li style="color:rgba(0,0,0)"><span
+                id="id-ExpensiveinsurancecoverageUninhabitablelivingconditionsTheftofpersonalbelongingsVisitorsfacinginjuryinpremises-31-Desktop-1-0" 
+                style="
+                font-size:15px;
+                font-weight:700;
+                text-transform:none;
+                
+                white-space:pre-wrap;line-height: 100%;
+letter-spacing: 0px;
+color: rgba(0,0,0,1.00);
+;font-family: Fibra Alt;
+font-style: Regular;
+">High costs associated with hiring</span></li></ul><span
+                id="id-ExpensiveinsurancecoverageUninhabitablelivingconditionsTheftofpersonalbelongingsVisitorsfacinginjuryinpremises-31-Desktop-1-0" 
+                style="
+                font-size:15px;
+                font-weight:700;
+                text-transform:none;
+                
+                white-space:pre-wrap;line-height: 100%;
+letter-spacing: 0px;
+color: rgba(0,0,0,1.00);
+;font-family: Fibra Alt;
+font-style: Regular;
+">       consultants for business analysis.<br></span><ul><li style="color:rgba(0,0,0)"><span
+                id="id-ExpensiveinsurancecoverageUninhabitablelivingconditionsTheftofpersonalbelongingsVisitorsfacinginjuryinpremises-31-Desktop-1-0" 
+                style="
+                font-size:15px;
+                font-weight:700;
+                text-transform:none;
+                
+                white-space:pre-wrap;line-height: 100%;
+letter-spacing: 0px;
+color: rgba(0,0,0,1.00);
+;font-family: Fibra Alt;
+font-style: Regular;
+">Lack of clarity on business's real</span></li></ul><span
+                id="id-ExpensiveinsurancecoverageUninhabitablelivingconditionsTheftofpersonalbelongingsVisitorsfacinginjuryinpremises-31-Desktop-1-0" 
+                style="
+                font-size:15px;
+                font-weight:700;
+                text-transform:none;
+                
+                white-space:pre-wrap;line-height: 100%;
+letter-spacing: 0px;
+color: rgba(0,0,0,1.00);
+;font-family: Fibra Alt;
+font-style: Regular;
+">       potential and weaknesses.<br></span><ul></ul></div>
+<div id="id-ProtectionofhomeProtectionofexternalpropertyandbelongingsfromunexpecteddamagesProtectionofpropertyfromlegalissues-31-Desktop-1" class="TEXT-204-72" style="
+z-index: 2;
+position: absolute;
+top: 143px;
+left: 12px;
+transform: rotate(0deg);
+opacity: 0;
+height: 76px;
+width: 267px;
+line-height: 0px;
+vertical-align: top;
+text-align: left;
+">
+<ul><li style="color:rgba(0,0,0)"><span
+                id="id-ProtectionofhomeProtectionofexternalpropertyandbelongingsfromunexpecteddamagesProtectionofpropertyfromlegalissues-31-Desktop-1-0" 
+                style="
+                font-size:15px;
+                font-weight:700;
+                text-transform:none;
+                
+                white-space:pre-wrap;line-height: 100%;
+letter-spacing: 0px;
+color: rgba(0,0,0,1.00);
+;font-family: Fibra Alt;
+font-style: Regular;
+">Business Stakeholders</span></li><li style="color:rgba(0,0,0)"><span
+                id="id-ProtectionofhomeProtectionofexternalpropertyandbelongingsfromunexpecteddamagesProtectionofpropertyfromlegalissues-31-Desktop-1-0" 
+                style="
+                font-size:15px;
+                font-weight:700;
+                text-transform:none;
+                
+                white-space:pre-wrap;line-height: 100%;
+letter-spacing: 0px;
+color: rgba(0,0,0,1.00);
+;font-family: Fibra Alt;
+font-style: Regular;
+">Entrepreneurs</span></li><li style="color:rgba(0,0,0)"><span
+                id="id-ProtectionofhomeProtectionofexternalpropertyandbelongingsfromunexpecteddamagesProtectionofpropertyfromlegalissues-31-Desktop-1-0" 
+                style="
+                font-size:15px;
+                font-weight:700;
+                text-transform:none;
+                
+                white-space:pre-wrap;line-height: 100%;
+letter-spacing: 0px;
+color: rgba(0,0,0,1.00);
+;font-family: Fibra Alt;
+font-style: Regular;
+">Investors & Venture Capitalists</span></li></ul></div>
+
+
+<!-- 00012-31-Desktop-1 Image Link -->
+<div id="id-00012-31-Desktop-1" class="RECTANGLE-204-73" style="z-index:2; opacity: 0; display:block; position: absolute;height: 72px; width: 115px; left: 0px; top:0px;transform:rotate(0deg)   ;  "><div style="position: absolute;
+    width:100%;
+    height:100%;
+    background-color: transparent;
+    background-image:url(https://s3-alpha-sig.figma.com/img/a1fd/a9bb/e79a69349e9501c71602ff98270b6bb1?Expires=1696809600&Signature=okIZsgNeSHkzS7vipmFWYhFyB8Vsn8JTiCuPuRVFOIi~HBYCZNlawKGbNmzcbM6qIQMhA6dmKfth3NM9EfxXHNIrWldxX0gImLf0GCQSVJQ-x5NK6m6WusGfMQxwzHueJm4IPLcuR55IRhaEjMTLsNWgLAD~-Bzt3qX-vO5W56Ayu8mc7QnwvvRk4rjApgCtovIPOejtqLoHn50~652N59T5RWCePprf9QY0zMY1u5tqrRN8K4wly1Nqza8kP65Rn6CK9aYLZczb80XOt3X00NF-W9uPLvOufevrP1A8NS7559yaMIDTeQyevNn9AeonhsHhyEzo2zrR7336-cJ4vQ__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4);opacity: 1;background-size:cover; background-position:center;background-repeat:no-repeat;  "></div></div> 
+<!-- Image Ends -->
+
+<div id="id-Frame1-31-Desktop-1" class="FRAME-2-7"  style="z-index: 1;">
+
+
+<!-- Page01-Box1-31-Frame1-31-Desktop-1 Image Link -->
+<div id="id-Page01-Box1-31-Frame1-31-Desktop-1" class="RECTANGLE-2-9" style="z-index:1; opacity: 1; display:block; position: absolute;height: 501px; width: 501px; left: 0px; top:0px;transform:rotate(0deg)   ;  "><div style="position: absolute;
+    width:100%;
+    height:100%;
+    background-color: transparent;
+    background-image:url(https://s3-alpha-sig.figma.com/img/8c38/4bd8/c53cca0ec6ce52fd2fe8952022964638?Expires=1696809600&Signature=J5kH6c-Qx5zIpCufI6IWebvgM8j8Vt7VJGuo4yFmDvguoeYt7joAVInLwGTEiqa6QXGmwLobwVN2vzSoYOCKKsHrlcXmVMZRAbw4y1AVK7P3bBA3nS~WKh2f6DGToiTT~umxKytfr0oWOLnWDGZVuLkJnajLoS839jV2tBhEMuEgLNkLvW0wQaEpXH4DBDs6EEsIGkU9wL8GFgUru5MwVb3-L09Z8L5BJsbdsAkByUNG~lmt9-KCaW5x1On--vEBj3-WBj0GPEOct86YW0EQgW48qUiN-8MEyg6mvvFdvmWkwvYhM55UDXdN~94MmnAp-hGzx30eH-NK3TFlZL0rOw__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4);opacity: 1;background-size:cover; background-position:center;background-repeat:no-repeat;  "></div></div> 
+<!-- Image Ends -->
+
+<div id="id-Group3-frame-31-Frame1-31-Desktop-1" class="FRAME-9-56"  style="z-index: 2;">
+
+
+<!-- Page01-Healthe-31-Group3-frame-31-Frame1-31-Desktop-1 Image Link -->
+<div id="id-Page01-Healthe-31-Group3-frame-31-Frame1-31-Desktop-1" class="RECTANGLE-2-11" style="z-index:1; opacity: 1; display:block; position: absolute;height: 66px; width: 66px; left: 20px; top:0px;transform:rotate(0deg)   ;  "><div style="position: absolute;
+    width:100%;
+    height:100%;
+    background-color: transparent;
+    background-image:url(https://s3-alpha-sig.figma.com/img/6f5c/9f93/f0879e5c2ade6e35ceebe9094e871b05?Expires=1696809600&Signature=ktWLkbkEctQUfeDdsZ7CCxheyZU6Eu5KWVI~RsdAUAFRoMf0zH1goECYo-v7H6P28JfsetDpi8vZpZatXT1dq6rGm-HBHFQviIv4HXYoScMqWytiTXd2H8YLx8SJRZGY0plb8RNwgQHgmb2eTEMIWA58oX8XubFA5gcF6PVw8pbBqt~vBYIchLJk~-pzcNw7SQ7-6c4hw47PWeN5j2aI~2sii3WZp2vMyoiT0jnfsBeZVp-UJlmEiRIdE1-~e5Tp3lbsmMvTxwdzm6iZDeeMjiE3MoxUgiebMu57jzLJOXaT6DhkTjaP0WOB2neHm2JZwHmUyvdyNEL3F2TBNHddtw__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4);opacity: 1;background-size:cover; background-position:center;background-repeat:no-repeat;  "></div></div> 
+<!-- Image Ends -->
+
+<div id="id-Pain-31-Group3-frame-31-Frame1-31-Desktop-1" class="TEXT-2-17" style="
+z-index: 2;
+position: absolute;
+top: 61px;
+left: 30px;
+transform: rotate(0deg);
+opacity: 1;
+height: 26px;
+width: 45px;
+line-height: 0px;
+vertical-align: top;
+text-align: left;
+">
+<span
+                id="id-Pain-31-Group3-frame-31-Frame1-31-Desktop-1-0" 
+                style="
+                font-size:20px;
+                font-weight:700;
+                text-transform:none;
+                
+                white-space:pre-wrap;line-height: 100%;
+letter-spacing: 0px;
+color: rgba(57,142,72,1.00);
+;font-family: Fibra Alt;
+font-style: Regular;
+">Pain</span></div>
+<div id="id-Relievers-31-Group3-frame-31-Frame1-31-Desktop-1" class="TEXT-2-18" style="
+z-index: 3;
+position: absolute;
+top: 87px;
+left: 7px;
+transform: rotate(0deg);
+opacity: 1;
+height: 26px;
+width: 91px;
+line-height: 0px;
+vertical-align: top;
+text-align: left;
+">
+<span
+                id="id-Relievers-31-Group3-frame-31-Frame1-31-Desktop-1-0" 
+                style="
+                font-size:20px;
+                font-weight:700;
+                text-transform:none;
+                
+                white-space:pre-wrap;line-height: 100%;
+letter-spacing: -0.2px;
+color: rgba(57,142,72,1.00);
+;font-family: Fibra Alt;
+font-style: Regular;
+">Relievers</span></div>
+</div>
+		<!-- FRAME-Group3-frame-31-Frame1-31-Desktop-1-9-56-completed -->
+<div id="id-Group2-frame-31-Frame1-31-Desktop-1" class="FRAME-9-58"  style="z-index: 3;">
+
+
+<!-- Page01-WormThingi-31-Group2-frame-31-Frame1-31-Desktop-1 Image Link -->
+<div id="id-Page01-WormThingi-31-Group2-frame-31-Frame1-31-Desktop-1" class="RECTANGLE-2-10" style="z-index:1; opacity: 1; display:block; position: absolute;height: 60px; width: 60px; left: 29px; top:70px;transform:rotate(0deg)   ;  "><div style="position: absolute;
+    width:100%;
+    height:100%;
+    background-color: transparent;
+    background-image:url(https://s3-alpha-sig.figma.com/img/04d9/aa8d/e3e7eff54bcca0df08b372aad7338c76?Expires=1696809600&Signature=dUtoC3ZOYvdsFs2puqm98nSOvaanv2q-PhkkRrISubxiw8sQVW3JAjRM~w8Bos2yTry8MjD7q6SSBiLwga1hQZeNFrCQxV-mIje5d~R-03G1OG2OQtQhLiGVnWXJaqeivRVhAfwZE86snpsdz1kHN05LuKQ-dfynHy8iCy4j~cHQlTA~aa6t9e5~QJIDQJ4olfGrq0IE-TTTKd3xDoIOuxvffNEE1KdZHJP8BbRElCuBEKVWqfyXWqdR-YWpMw8scAC-jNxnlqhbRDCmKzr8OZcIVfID7UZHCB203wCqglhZKsFv6UmQnlOA9Eo7Qc9VIqj1DZ30RJfro92U-R8NFg__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4);opacity: 1;background-size:cover; background-position:center;background-repeat:no-repeat;  "></div></div> 
+<!-- Image Ends -->
+
+<div id="id-Products-31-Group2-frame-31-Frame1-31-Desktop-1" class="TEXT-2-15" style="
+z-index: 2;
+position: absolute;
+top: 14px;
+left: 12px;
+transform: rotate(0deg);
+opacity: 1;
+height: 26px;
+width: 94px;
+line-height: 0px;
+vertical-align: top;
+text-align: left;
+">
+<span
+                id="id-Products-31-Group2-frame-31-Frame1-31-Desktop-1-0" 
+                style="
+                font-size:20px;
+                font-weight:700;
+                text-transform:none;
+                
+                white-space:pre-wrap;line-height: 100%;
+letter-spacing: 0px;
+color: rgba(57,142,72,1.00);
+;font-family: Fibra Alt;
+font-style: Regular;
+">Products</span></div>
+<div id="id-Services-31-Group2-frame-31-Frame1-31-Desktop-1" class="TEXT-2-16" style="
+z-index: 3;
+position: absolute;
+top: 40px;
+left: 8px;
+transform: rotate(0deg);
+opacity: 1;
+height: 26px;
+width: 102px;
+line-height: 0px;
+vertical-align: top;
+text-align: left;
+">
+<span
+                id="id-Services-31-Group2-frame-31-Frame1-31-Desktop-1-0" 
+                style="
+                font-size:20px;
+                font-weight:700;
+                text-transform:none;
+                
+                white-space:pre-wrap;line-height: 100%;
+letter-spacing: -0.3px;
+color: rgba(57,142,72,1.00);
+;font-family: Fibra Alt;
+font-style: Regular;
+">& Services</span></div>
+</div>
+		<!-- FRAME-Group2-frame-31-Frame1-31-Desktop-1-9-58-completed -->
+<div id="id-Group1-frame-31-Frame1-31-Desktop-1" class="FRAME-9-60"  style="z-index: 4;">
+
+
+<!-- Page01-Stock-31-Group1-frame-31-Frame1-31-Desktop-1 Image Link -->
+<div id="id-Page01-Stock-31-Group1-frame-31-Frame1-31-Desktop-1" class="RECTANGLE-2-12" style="z-index:1; opacity: 1; display:block; position: absolute;height: 76px; width: 76px; left: 13px; top:57px;transform:rotate(0deg)   ;  "><div style="position: absolute;
+    width:100%;
+    height:100%;
+    background-color: transparent;
+    background-image:url(https://s3-alpha-sig.figma.com/img/eeed/4b1b/4bd7e64565ffa761f0f022733817fe29?Expires=1696809600&Signature=Aamwm-Fdd-KKVIYbZ36qca4vwcol40~HkZr-rtGBnWsm0j8Jp9QykiWNw0BgtTdyD5U1lCpmX8wVLVSsP--fZkOdfFpXKXqXLa7lNZy68mUy7cPu-DeKe1mo1BHatEHas~VKTYTMjXs08wp6tGmchmRGdZIDQcj2avaOHdYMmqGOwvbfgVuhQ70npcKAQVzNP9LarUnIJRDyHIgVxLMA0j9fTckPqWPUnESxiVIAJE62ymmKintDpJyRvDDLS3z5l6VKYxhBITLDs7WMC6OaA~1at1cXdJVsejx-G7~QydFW4DkqpA8KObVl9E7qT-J-P0m-FSKgTEvVgT0Xtk007w__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4);opacity: 1;background-size:cover; background-position:center;background-repeat:no-repeat;  "></div></div> 
+<!-- Image Ends -->
+
+<div id="id-Gain-31-Group1-frame-31-Frame1-31-Desktop-1" class="TEXT-2-13" style="
+z-index: 2;
+position: absolute;
+top: 11px;
+left: 26px;
+transform: rotate(0deg);
+opacity: 1;
+height: 26px;
+width: 49px;
+line-height: 0px;
+vertical-align: top;
+text-align: left;
+">
+<span
+                id="id-Gain-31-Group1-frame-31-Frame1-31-Desktop-1-0" 
+                style="
+                font-size:20px;
+                font-weight:700;
+                text-transform:none;
+                
+                white-space:pre-wrap;line-height: 100%;
+letter-spacing: 0px;
+color: rgba(57,142,72,1.00);
+;font-family: Fibra Alt;
+font-style: Regular;
+">Gain</span></div>
+<div id="id-Creators-31-Group1-frame-31-Frame1-31-Desktop-1" class="TEXT-2-14" style="
+z-index: 3;
+position: absolute;
+top: 37px;
+left: 6px;
+transform: rotate(0deg);
+opacity: 1;
+height: 26px;
+width: 89px;
+line-height: 0px;
+vertical-align: top;
+text-align: left;
+">
+<span
+                id="id-Creators-31-Group1-frame-31-Frame1-31-Desktop-1-0" 
+                style="
+                font-size:20px;
+                font-weight:700;
+                text-transform:none;
+                
+                white-space:pre-wrap;line-height: 100%;
+letter-spacing: -0.7px;
+color: rgba(57,142,72,1.00);
+;font-family: Fibra Alt;
+font-style: Regular;
+">Creators</span></div>
+</div>
+		<!-- FRAME-Group1-frame-31-Frame1-31-Desktop-1-9-60-completed -->
+</div>
+		<!-- FRAME-Frame1-31-Desktop-1-2-7-completed -->
+<div id="id-Frame2-31-Desktop-1" class="FRAME-2-8"  style="z-index: 2;">
+
+
+<!-- Page02-Face-31-Frame2-31-Desktop-1 Image Link -->
+<div id="id-Page02-Face-31-Frame2-31-Desktop-1" class="RECTANGLE-2-20" style="z-index:1; opacity: 1; display:block; position: absolute;height: 529px; width: 529px; left: -52px; top:-12px;transform:rotate(0deg)   ;  "><div style="position: absolute;
+    width:100%;
+    height:100%;
+    background-color: transparent;
+    background-image:url(https://s3-alpha-sig.figma.com/img/875b/870f/4d61202b985e550f10b9799b46fdb509?Expires=1696809600&Signature=bnBblm4m5i8QJFc7ebXME9lwdffz77dUBRoQzZMpLLxaUggs-VgoRqjobJk60p0xv1VS7qqd6t7CZPNFL9ytFdnn5VzVjyXIaqu7lZtzhEYB8Cqb5x0ozAQy5mjFIsEBboJxH7XoUbCDmfsjf5Ru4op3-0mo6HRHSI~Eg6Z7J8hCF7uDD8FSDqBz5~yJbk~o5tlx-ektbGzXNaUSWUN2zyY1wCs23xz5ZFKo~dngiSBnw5dXVa-gsVwSIQB5PTRf4x4CrmLh2XavxPdZZbEncJHs~BZT-LxzbAi-Jn3KLRk81RGjuFp7qITYbO4TXZa2DItDIEi~-kSFlS~AtdZctg__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4);opacity: 1;background-size:cover; background-position:center;background-repeat:no-repeat;  "></div></div> 
+<!-- Image Ends -->
+
+<div id="id-Group6-frame-31-Frame2-31-Desktop-1" class="FRAME-9-62"  style="z-index: 2;">
+
+
+<!-- Page02-Thumbs-31-Group6-frame-31-Frame2-31-Desktop-1 Image Link -->
+<div id="id-Page02-Thumbs-31-Group6-frame-31-Frame2-31-Desktop-1" class="RECTANGLE-2-21" style="z-index:1; opacity: 1; display:block; position: absolute;height: 55px; width: 55px; left: 0px; top:26px;transform:rotate(0deg)   ;  "><div style="position: absolute;
+    width:100%;
+    height:100%;
+    background-color: transparent;
+    background-image:url(https://s3-alpha-sig.figma.com/img/52dc/2053/628097ec74ce1759d71cf11f2504e82c?Expires=1696809600&Signature=UN3FRXMKmsBGj~5GxbScE4UM9RopX6dUdmvh6Cgh7obeDh8qeAg9LRmThQBM4GMhhGUyLaqklln72N32-Ol~HMFW1cIt3HjYSyr~eMp7lkrQ8-nk5DVcw5KlxJhSBOyNpXfSH7NusZR89WHSFp5sVy4arSwAn7605Je0fVwR3lIymcXc4o1FTTjfvTqwtyaS5DaNdyTMVa-iM8-wcdd7x6f1rQtLT6NFgMwpGtZ8UVeEbc--JRv8Puv2BjcTzO9YgAptMOT92gfULTBZoctYSAel3KincacbdZJSH~HdCILO~lSXFLI81onnmhZPeVvIhrr8kJv9odo4UBLr2Uc-og__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4);opacity: 1;background-size:cover; background-position:center;background-repeat:no-repeat;  "></div></div> 
+<!-- Image Ends -->
+
+<div id="id-Gains-31-Group6-frame-31-Frame2-31-Desktop-1" class="TEXT-2-23" style="
+z-index: 2;
+position: absolute;
+top: 0px;
+left: 0px;
+transform: rotate(0deg);
+opacity: 1;
+height: 26px;
+width: 55px;
+line-height: 0px;
+vertical-align: top;
+text-align: left;
+">
+<span
+                id="id-Gains-31-Group6-frame-31-Frame2-31-Desktop-1-0" 
+                style="
+                font-size:20px;
+                font-weight:700;
+                text-transform:none;
+                
+                white-space:pre-wrap;line-height: 100%;
+letter-spacing: -1.3px;
+color: rgba(57,142,72,1.00);
+;font-family: Fibra Alt;
+font-style: Regular;
+">Gains</span></div>
+</div>
+		<!-- FRAME-Group6-frame-31-Frame2-31-Desktop-1-9-62-completed -->
+<div id="id-Group4-frame-31-Frame2-31-Desktop-1" class="FRAME-9-64"  style="z-index: 3;">
+
+
+<!-- Page02-Thumbs-31-Group4-frame-31-Frame2-31-Desktop-1 Image Link -->
+<div id="id-Page02-Thumbs-31-Group4-frame-31-Frame2-31-Desktop-1" class="RECTANGLE-2-22" style="z-index:1; opacity: 1; display:block; position: absolute;height: 57px; width: 57px; left: 16px; top:41px;transform:rotate(0deg)   ;  "><div style="position: absolute;
+    width:100%;
+    height:100%;
+    background-color: transparent;
+    background-image:url(https://s3-alpha-sig.figma.com/img/52dc/2053/628097ec74ce1759d71cf11f2504e82c?Expires=1696809600&Signature=UN3FRXMKmsBGj~5GxbScE4UM9RopX6dUdmvh6Cgh7obeDh8qeAg9LRmThQBM4GMhhGUyLaqklln72N32-Ol~HMFW1cIt3HjYSyr~eMp7lkrQ8-nk5DVcw5KlxJhSBOyNpXfSH7NusZR89WHSFp5sVy4arSwAn7605Je0fVwR3lIymcXc4o1FTTjfvTqwtyaS5DaNdyTMVa-iM8-wcdd7x6f1rQtLT6NFgMwpGtZ8UVeEbc--JRv8Puv2BjcTzO9YgAptMOT92gfULTBZoctYSAel3KincacbdZJSH~HdCILO~lSXFLI81onnmhZPeVvIhrr8kJv9odo4UBLr2Uc-og__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4);opacity: 1;background-size:cover; background-position:center;background-repeat:no-repeat;  "></div></div> 
+<!-- Image Ends -->
+
+<div id="id-Pains-31-Group4-frame-31-Frame2-31-Desktop-1" class="TEXT-2-24" style="
+z-index: 2;
+position: absolute;
+top: 12px;
+left: 19px;
+transform: rotate(0deg);
+opacity: 1;
+height: 26px;
+width: 51px;
+line-height: 0px;
+vertical-align: top;
+text-align: left;
+">
+<span
+                id="id-Pains-31-Group4-frame-31-Frame2-31-Desktop-1-0" 
+                style="
+                font-size:20px;
+                font-weight:700;
+                text-transform:none;
+                
+                white-space:pre-wrap;line-height: 100%;
+letter-spacing: -1.3px;
+color: rgba(57,142,72,1.00);
+;font-family: Fibra Alt;
+font-style: Regular;
+">Pains</span></div>
+</div>
+		<!-- FRAME-Group4-frame-31-Frame2-31-Desktop-1-9-64-completed -->
+<div id="id-Group5-frame-31-Frame2-31-Desktop-1" class="FRAME-9-66"  style="z-index: 4;">
+
+
+<!-- Page02-Tick-31-Group5-frame-31-Frame2-31-Desktop-1 Image Link -->
+<div id="id-Page02-Tick-31-Group5-frame-31-Frame2-31-Desktop-1" class="RECTANGLE-2-19" style="z-index:1; opacity: 1; display:block; position: absolute;height: 52px; width: 52px; left: 27px; top:57px;transform:rotate(180deg)   ;  "><div style="position: absolute;
+    width:100%;
+    height:100%;
+    background-color: transparent;
+    background-image:url(https://s3-alpha-sig.figma.com/img/a918/b02b/4e8a463420cf9ba3b65902d2ad1c70c9?Expires=1696809600&Signature=eueZvychpw36u~PWaGst0hMzrokWpIibxx7zh8nhuLHsSemrEqaRH~iELgztKgUBzaIh6O208athagAqtcVYzlzTPsuptqJB2x-cz~NUrrbx3JSCAkYpcRSO6N1fWzAN8avdTnN8za4a3g7FDbVZuPcQ27P~ab-c6jcMa4W3CrE1djz0VGYMcdHhMUoCilW3l7dMweQCBJ3AsclNoW56gMgSl13pAkgnNFn6uHc253f2X6o2FxVh4hswrst0gZ08oFf56fVI~bmLnXXubElPZVMoUN9mjhO7ItU2I0v~EUZabZwUUJ2uw2FG8LZFUynA0KQ4q-q9TlSeJd0de2Bnag__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4);opacity: 1;background-size:cover; background-position:center;background-repeat:no-repeat;  "></div></div> 
+<!-- Image Ends -->
+
+<div id="id-Customer-31-Group5-frame-31-Frame2-31-Desktop-1" class="TEXT-2-25" style="
+z-index: 2;
+position: absolute;
+top: 0px;
+left: 0px;
+transform: rotate(0deg);
+opacity: 1;
+height: 26px;
+width: 105px;
+line-height: 0px;
+vertical-align: top;
+text-align: left;
+">
+<span
+                id="id-Customer-31-Group5-frame-31-Frame2-31-Desktop-1-0" 
+                style="
+                font-size:20px;
+                font-weight:700;
+                text-transform:none;
+                
+                white-space:pre-wrap;line-height: 100%;
+letter-spacing: 0px;
+color: rgba(57,142,72,1.00);
+;font-family: Fibra Alt;
+font-style: Regular;
+">Customer</span></div>
+<div id="id-Jobs-31-Group5-frame-31-Frame2-31-Desktop-1" class="TEXT-2-26" style="
+z-index: 3;
+position: absolute;
+top: 26px;
+left: 29px;
+transform: rotate(0deg);
+opacity: 1;
+height: 26px;
+width: 47px;
+line-height: 0px;
+vertical-align: top;
+text-align: left;
+">
+<span
+                id="id-Jobs-31-Group5-frame-31-Frame2-31-Desktop-1-0" 
+                style="
+                font-size:20px;
+                font-weight:700;
+                text-transform:none;
+                
+                white-space:pre-wrap;line-height: 100%;
+letter-spacing: 0px;
+color: rgba(57,142,72,1.00);
+;font-family: Fibra Alt;
+font-style: Regular;
+">Jobs</span></div>
+</div>
+		<!-- FRAME-Group5-frame-31-Frame2-31-Desktop-1-9-66-completed -->
+</div>
+		<!-- FRAME-Frame2-31-Desktop-1-2-8-completed -->
+<div id="id-Component1-31-Desktop-1" class="INSTANCE-25-30"  style="z-index: 3;">
+
+
+<!-- 00013-31-Component1-31-Desktop-1 Image Link -->
+<div id="id-00013-31-Component1-31-Desktop-1" class="RECTANGLE-I25-30-16-97" style="z-index:1; opacity: 1; display:block; position: absolute;height: 68px; width: 115px; left: 0px; top:0px;transform:rotate(0deg)   ;  "><div style="position: absolute;
+    width:100%;
+    height:100%;
+    background-color: transparent;
+    background-image:url(https://s3-alpha-sig.figma.com/img/acf1/16ec/342707291f36dbd40f4f9ca93a51e1b9?Expires=1696809600&Signature=Whz7nzn3ap7BJBO9whga3JrJkdDLWDfRUitiNaPku3ZTkf-32rWw2UBchENIX8yqbKJi4vdgINjAIMDoLEu9hOHMS544lMpovfB~zlszw0kfeLBKmDenpbU4tG0HXwpuqOcmOBDLzxjeT9ozgkbkPlv7bXvb71leBnOcfbt30J1NRtQr3xB271mEZMu8QgyRqTUBgmbrNXISt4QQ6UGYpIPnrRoNF4EC27W2wIt4nBPnb13XSAyRWAlmjZ3egEZWbzuhuFL8sgxoAZx2arnqwJ82zufv9zoGfbp1c2mXCn5tgUg~Xx-u1TJZA8FjZDnd-Oug8-Ki9MXo9sdyBx25bw__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4);opacity: 1;background-size:cover; background-position:center;background-repeat:no-repeat;  "></div></div> 
+<!-- Image Ends -->
+
+</div>
+		<!-- INSTANCE-Component1-31-Desktop-1-25-30-completed -->
+</div>
+		<!-- FRAME-Desktop - 1-13-2-completed -->
+</div>
+<script src="scripts.js"></script></body></html>
